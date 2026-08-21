@@ -15,6 +15,7 @@ public class PowerSet {
                     if ((i & (1 << j)) != 0) {
                         str.append(s.charAt(j));
                     }
+
                 }
                 ans.add(str.toString());
             }
